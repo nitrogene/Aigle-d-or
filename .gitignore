@@ -39,3 +39,22 @@
 
 # debug information files
 *.dwo
+
+# Build directories
+build/
+build_msvc/
+.vs/
+out/
+
+# Qt generated files
+_autogen/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.user
+*.qrc.depend
+*.qrc.cpp
+mocs_compilation.cpp
+*.moc
+ui_*.h
